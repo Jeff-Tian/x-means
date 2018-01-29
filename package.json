@@ -1,0 +1,27 @@
+{
+  "name": "x-means",
+  "version": "0.0.1",
+  "description": "Extends k-means to x-means implemented by node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha lib/**/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Tian/x-means.git"
+  },
+  "keywords": [
+    "x-means",
+    "k-means"
+  ],
+  "author": "Jeff Tian (jeff.tian@outlook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeff-Tian/x-means/issues"
+  },
+  "homepage": "https://github.com/Jeff-Tian/x-means#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
