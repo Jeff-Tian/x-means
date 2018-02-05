@@ -4,7 +4,7 @@
   "description": "Extends k-means to x-means implemented by node js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha  --compilers js:babel-core/register lib/**/**.spec.js",
+    "test": "mocha  --compilers js:babel-core/register lib/**/**.spec.js index.spec.js",
     "coverage": "nyc --reporter=lcovonly --extension=.js --exclude=lib/x-means.spec.js mocha --compilers js:babel-core/register lib/x-means.spec.js"
   },
   "repository": {
