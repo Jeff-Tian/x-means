@@ -1,4 +1,4 @@
-# x-means [中文](./READM_zh-CN.md)
+# x-means [中文](./README_zh-CN.md)
 A Node JS implementation of the `x-means` algorithm, extends [`k-means`](http://k-means.pa-pa.me) to automatically decide the value of `k`.
 
 Thanks to [this paper](https://www.cs.cmu.edu/~dpelleg/download/xmeans.pdf) and [this repo](https://github.com/annoviko/pyclustering).
